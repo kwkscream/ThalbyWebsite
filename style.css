@@ -222,3 +222,308 @@
 .cards .card .card__text .price {
   margin-bottom: 5px;
 }
+
+.people-and-society {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.people-and-society__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.people-and-society__inner .people-and-society__image {
+  margin-right: 50px;
+}
+
+.people-and-society__inner .people-and-society__image img {
+  width: 385px;
+  height: 525px;
+}
+
+.people-and-society__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  max-width: 530px;
+}
+
+.people-and-society__info h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 31px;
+}
+
+.people-and-society__info p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.people-and-society__info span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.culture-and-heritage {
+  background: rgba(204, 204, 204, 0.6);
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.culture-and-heritage__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.culture-and-heritage__inner .culture-and-heritage__image {
+  margin-left: 50px;
+}
+
+.culture-and-heritage__inner .culture-and-heritage__image img {
+  width: 385px;
+  height: 525px;
+}
+
+.culture-and-heritage__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  max-width: 532px;
+  text-align: right;
+}
+
+.culture-and-heritage__info h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 31px;
+  text-align: right;
+}
+
+.culture-and-heritage__info p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.culture-and-heritage__info span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.power-and-politics {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.power-and-politics__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.power-and-politics__inner .power-and-politics__image {
+  margin-right: 50px;
+}
+
+.power-and-politics__inner .power-and-politics__image img {
+  width: 385px;
+  height: 525px;
+}
+
+.power-and-politics__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  max-width: 530px;
+}
+
+.power-and-politics__info h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 31px;
+}
+
+.power-and-politics__info p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.power-and-politics__info span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.features__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 190px;
+  padding-bottom: 290px;
+}
+
+.features__inner .features-title h2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+  max-width: 470px;
+  max-height: 84px;
+  margin-bottom: 70px;
+}
+
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px 24px;
+}
+
+.features-cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 338px;
+  height: 167px;
+}
+
+.features-cards .card img {
+  margin-bottom: 26px;
+}
+
+.features-cards .card span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+  color: black;
+}
+
+.features-cards .card {
+  text-align: center;
+}
+
+.features-cards {
+  margin-bottom: 165px;
+}
+
+.features__inner .features-bottom-title h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.2px;
+  color: black;
+}
+
+.features__inner .features-bottom-title {
+  text-align: center;
+}
+
+.fascinating-voices {
+  background: rgba(240, 240, 240, 1);
+  max-height: 480px;
+}
+
+.fascinating-voices__inner .fascinating-voices__cards .card img {
+  width: 288px;
+  height: 351px;
+  margin-bottom: 35px;
+}
+
+.fascinating-voices__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fascinating-voices__inner .fascinating-voices__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: translateY(-190px);
+}
+
+.fascinating-voices__cards {
+  gap: 100px;
+}
+
+.fascinating-voices__cards .card .card-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+  letter-spacing: 0.6px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.fascinating-voices__cards .card .card-name {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22.27px;
+  color: black;
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.fascinating-voices__cards .card span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: black;
+  text-decoration: underline;
+}
+
+.fascinating-voices__cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
